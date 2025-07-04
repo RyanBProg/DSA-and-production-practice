@@ -2,10 +2,9 @@
 
 ## Repo Setup & Structure
 
-- Create a pull request template (.github/pull_request_template.md)
-- Set up Github actions for CI (.github/workflows/ci/yml)
-- Solutions go in [src] folder, tests go in [tests] folder
-- Explain the solution in the [solution-explanations.md] file
+- Solutions go in [src] folder, tests go in [tests] folder.
+- Before commencing work, create an issue in GitHub using the template (view steps below).
+- Remember to explain the solution in the [solution-explanations.md] file.
 
 **Dependecies**
 
