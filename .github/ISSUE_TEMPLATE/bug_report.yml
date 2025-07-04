@@ -57,10 +57,3 @@ body:
         - Repo Workflow / Templates
         - Other
       default: 0
-
-  - type: tags
-    id: tags
-    attributes:
-      label: Tags
-      description: Add relevant tags to help categorize this bug report.
-      default: [bug]

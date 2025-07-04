@@ -1,7 +1,7 @@
 name: Feature Request
 description: Propose adding a new feature, enhancement, or tooling improvement
 title: "[FEATURE] <brief description of the feature>"
-labels: [enhancement]
+labels: [feature-request]
 assignees: []
 
 body:
@@ -60,10 +60,3 @@ body:
         - [ ] Add integration test (if needed)
         - [ ] Update solution-explanations.md
         - [ ] Run lint, type-check, and tests
-
-  - type: tags
-    id: tags
-    attributes:
-      label: Tags
-      description: Add relevant tags to help categorize this bug report.
-      default: [feature]
