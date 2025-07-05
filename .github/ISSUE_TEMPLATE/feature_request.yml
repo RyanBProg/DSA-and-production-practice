@@ -1,7 +1,7 @@
 name: Feature Request
 description: Propose adding a new feature, enhancement, or tooling improvement
 title: "[FEATURE] <brief description of the feature>"
-labels: [feature-request]
+labels: [enhancement]
 assignees: []
 
 body:
