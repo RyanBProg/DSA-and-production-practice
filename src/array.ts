@@ -5,4 +5,8 @@ export default class MyArray<T> {
   get length(): number {
     return this._length;
   }
+
+  values() {
+    return Object.values(this.items);
+  }
 }
