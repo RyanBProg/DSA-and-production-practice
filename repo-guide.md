@@ -4,7 +4,7 @@
 
 - Solutions go in [src] folder, tests go in [tests] folder.
 - Before commencing work, create an issue in GitHub using the template (view steps below).
-- Remember to explain the solution in the [solution-explanations.md] file.
+- Remember to explain the solution in the /solution-report file, use [solution-explanations.md] as a starting point.
 
 **Dependecies**
 

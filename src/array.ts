@@ -29,9 +29,46 @@ export default class MyArray<T> {
         "The given argument is not a number, it needs to be of type number",
       );
     }
-    if (index > this._length - 1) {
+    if (index > this._length - 1 || index < 0) {
       throw new Error("Given index out of range");
     }
     return this.items[index];
+  }
+
+  set(index: number, value: T) {
+    if (typeof index !== "number") {
+      throw new Error(
+        "The given argument is not a number, it needs to be of type number",
+      );
+    }
+    if (index > this._length - 1 || index < 0) {
+      throw new Error("Given index out of range");
+    }
+    this.items[index] = value;
+  }
+
+  find(value: T): number | undefined {
+    for (const prop in this.items) {
+      if (this.items[prop] === value) {
+        return Number(prop);
+      }
+    }
+    return undefined;
+  }
+
+  remove(index: number) {
+    if (typeof index !== "number") {
+      throw new Error(
+        "The given argument is not a number, it needs to be of type number",
+      );
+    }
+    if (index > this._length - 1 || index < 0) {
+      throw new Error("Given index out of range");
+    }
+    for (let i = index; i < this._length - 1; i++) {
+      this.items[i] = this.items[i + 1];
+    }
+    delete this.items[this._length - 1];
+    this._length--;
   }
 }
