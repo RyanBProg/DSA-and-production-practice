@@ -10,6 +10,8 @@ Follow TTD principles and implement an array data structure with built in method
 
 This project has helped me to understand better how the array data structure works under the hood. Its also given me hands-on experience with TDD practises and practice my OOP skills.
 
+---
+
 ### Design Decisions
 
 This custom array data structure was implemented from scratch using the `MyArray` class with default properties and methods. I chose to use an object to store the data for fast lookups and to avoid simply using a native array under the hood. The trade-off is that objects in JavaScript are not inherently ordered, but by using numeric indices as keys, I can maintain the correct order of elements.
