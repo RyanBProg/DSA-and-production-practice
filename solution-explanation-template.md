@@ -9,6 +9,12 @@ Implement a singly linked list that supports `insert`, `delete`, `find`, and `tr
 
 ---
 
+### Key Learning Takeaways
+
+This project has helped me to understand better how the linked list data structure works under the hood. Its also given me hands-on experience with TDD practises and practice my OOP skills.
+
+---
+
 ### Design Decisions
 
 Explain how you approached the implementation:
@@ -55,20 +61,18 @@ Document important edge scenarios and how they were handled:
 
 ---
 
-### 🔗 Integration Test Scenario (if applicable)
+### 🔗 Testing
 
-Describe a real-world use/test case:
-
-- Insert several elements
-- Delete one in the middle
-- Search for an existing and a non-existing value
-- Confirm the list structure remains valid
+- **Unit tests** check initialsation, individual methods and properties are correct.
+- **Integration tests** verify that a sequence of method calls works as expected and the data structure maintains integrity throughout.
 
 ---
 
 ### ✅ Checklist
 
+- [x] TDD principles adhered to
+- [x] Required data structure and method implemented
 - [x] Unit tests written and passing
-- [x] Integration test written (if needed)
+- [x] Integration test written and passed (if needed)
 - [x] Linter and type checker pass
-- [x] PR merged
+- [x] Documentation updated
