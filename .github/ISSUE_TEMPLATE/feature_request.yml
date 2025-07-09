@@ -55,8 +55,9 @@ body:
         - Add entry to `solution-explanations.md`
         - Document time/space complexity
       value: |
-        - [ ] Write implementation
-        - [ ] Write unit tests
+        - [ ] TDD principles adhered to
+        - [ ] Implementation completed to modern coding practices
+        - [ ] Unit tests
         - [ ] Add integration test (if needed)
-        - [ ] Update solution-explanations.md
+        - [ ] ./solution-report folder updated an with explanation
         - [ ] Run lint, type-check, and tests
