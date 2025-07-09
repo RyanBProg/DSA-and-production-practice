@@ -20,7 +20,7 @@ Please delete options that are not relevant.
 - [ ] Issue linked and referenced in PR
 - [ ] Unit & integration tests added or updated
 - [ ] Code passes lint, type checking and tests
-- [ ] `solution-explanations.md` updated with explanation
+- [ ] `./solution-report` folder updated with explanation
 
 ## Description of Changes
 

@@ -71,8 +71,8 @@ Document important edge scenarios and how they were handled:
 ### ✅ Checklist
 
 - [x] TDD principles adhered to
-- [x] Required data structure and method implemented
+- [x] Implementation completed to modern coding practices
 - [x] Unit tests written and passing
-- [x] Integration test written and passed (if needed)
+- [x] Integration test written and passed
 - [x] Linter and type checker pass
-- [x] Documentation updated
+- [x] `./solution-report` folder updated with an explanation
