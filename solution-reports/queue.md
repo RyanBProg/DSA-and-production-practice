@@ -1,20 +1,20 @@
-## Stack
+## Queue
 
 ### Problem Summary
 
-Follow TTD principles and implement a custom stack data structure with built in methods for manipulating and storing data.
+Follow TTD principles and implement a custom queue data structure with built in methods for manipulating and storing data.
 
 ---
 
 ### Key Learning Takeaways
 
-This project helped me better understand how a stack works under the hood. It also gave me hands-on experience with TDD, testing best practices, and stack manipulation techniques in TypeScript.
+This project helped me better understand how queues works under the hood. It also gave me hands-on experience with TDD, testing best practices, and queue manipulation techniques in TypeScript.
 
 ---
 
 ### Design Decisions
 
-The stack was implemented using a class-based approach. I chose to use an internal array to store the stack’s items because it allows for simple and performant access to last-in-first-out operations. The class wraps this internal structure with a clear, stack-specific interface.
+The queue was implemented using a class-based approach. I chose to use an internal array to store the queue’s items because it allows for simple and performant access to first-in-first-out operations. The class wraps this internal structure with a clear, queue-specific interface.
 
 ---
 
@@ -23,19 +23,21 @@ The stack was implemented using a class-based approach. I chose to use an intern
 **Properties:**
 
 - `.size`
+- `.values`
 
 **Methods:**
 
-- `.pop()`
-- `.push()`
+- `.clear()`
 - `.peek()`
 - `.isEmpty()`
+- `.enqueue()`
+- `.dequeue()`
 
 ---
 
 ### 🧪 Edge Cases Considered
 
-- Popping from an empty stack returns undefined and does not throw an error.
+- operations performed on an empty stack returns undefined and does not throw an error.
 
 ---
 
@@ -43,10 +45,11 @@ The stack was implemented using a class-based approach. I chose to use an intern
 
 | Operation | Time Complexity |
 | --------- | --------------- |
-| Pop       | O(1)            |
-| Push      | O(1)            |
+| Clear     | O(1)            |
 | Peek      | O(1)            |
 | isEmpty   | O(1)            |
+| Enqueue   | O(1)            |
+| Dequeue   | O(n)            |
 
 The overall space complexity for the data structure is O(n), where n is the number of elements stored.
 
