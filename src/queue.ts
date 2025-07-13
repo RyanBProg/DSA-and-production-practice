@@ -1,11 +1,11 @@
 export default class MyQueue<T> {
   private items: T[] = [];
 
-  values() {
-    return this.items;
+  get values() {
+    return [...this.items];
   }
 
-  size() {
+  get size() {
     return this.items.length;
   }
 
@@ -26,7 +26,7 @@ export default class MyQueue<T> {
   }
 
   enqueue(value: T) {
-    this.items[this.items.length] = value;
+    this.items.push(value);
   }
 
   dequeue() {
